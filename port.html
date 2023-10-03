@@ -1,0 +1,278 @@
+<html>
+<head>
+<h1>Protofilo</h1>
+<style>
+    nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #5317b3;
+  z-index: 99;
+}
+
+.nav__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
+  color: white;
+}
+nav .logo a:hover {
+  color: var(--primary-color-dark);
+}
+
+nav .checkbox {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+nav .checkbox i {
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+    ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text-dark);
+  transition: 0.3s;
+  color:white;
+}
+
+ul li a:hover {
+  border-top-color: var(--secondary-color);
+  border-bottom-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+.image {
+  display: grid;
+  place-items: center;
+}
+.image {
+    grid-area: 1/1/2/2;
+  }
+
+.image img {
+  width:50px;
+  height:50px;
+  border-radius: 80%;
+}
+.box{
+    background-color: gray;
+}
+.box1{
+  color:#5317b3;
+  background-color: aliceblue;
+  
+}
+.box2{
+  color:rgb(38, 81, 156);
+  background-color:whitesmoke;
+  float:center;
+  font-size: large;
+  
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #24acac;
+  color: #dcd3d3;
+}
+
+</style>
+</head>
+<body>
+<h1 text align="center">Gorla Sravya</h1>
+<table border="2" width= 1450px><tr><td></td></tr></table>
+<nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">GORLA SRAVYA</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#skills">skills</a>
+        </li>
+        <li class="nav-item">
+        
+        <a class="nav-link" href="#projects">projects</a>
+    </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Resume">Resume</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>x
+        </li>
+    </ul>
+  </nav>
+  <section id="Home"><center>
+    <div class="container mt-4 pt-4">
+       
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="sravyaimage.jpg" class= "imageAboutPage" alt="" ></center>
+            
+<p>I am excited to continue my education and pursue a career in software development, where I can contribute to solving real-world problems with cutting-edge technologies.
+With a strong interest and passion for python, I am pursuing my Bachelor of Technology degree from Sri venkateswara college of engineering and technology 
+, where I am learning programming, algorithms, and data science skills.</p>
+
+<!-- about section-->
+    <section id="about"><center>
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="sravyaimage.jpg" class= "imageAboutPage" alt="" height=500px width=250px></center>
+                
+                   
+                        
+                    <div class="row mt-3">
+                        <p>Currently, I am working as a internship at CodSoft, a full stack developer intern at Bharat Intern, and a web development and designing intern at Oasis Infobyte, where 
+I am applying my skills and knowledge to develop innovative and user-friendly solutions for various clients and projects.I enjoy working in a team environment and collaborating 
+with other developers, designers, and stakeholders. I am excited to continue my education and pursue a career in software development, where I can contribute to solving real-world 
+problems with cutting-edge technologies.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+<!-- Skill section-->
+<center>
+<section class="skills" id="skills">
+  <div class="box">
+  <h2>Skills</h2>
+  
+  <div class="container">
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="web.jpg">
+                <h3>HTML,CSS,JS</h3>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="sql.jpg">
+                <h3>sql</h3>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="python.jpg">
+              <h3>python</h3>
+          </div>
+      </div>
+      
+    </div>
+    
+    </div>
+    </div>
+</div>
+</div>
+</section>
+
+	</center>
+	
+<!-- contact-->	
+    <br>
+    <div class="box1">
+    <section id="projects">
+        <div class="container mt-3 contactContent">
+          <center>  <h1 class="text-center">projects </h1>  
+            <img src="cloud.jpg" alt=""> <p>I done my projects in course of cloud computing ,verzeo banglore</p>
+            <img src="data.jpg" alt=""><p> I done my internship in course of data science and machine learning,upskillcampus</p> 
+            <img src="html.jpg" alt=""><p>I done my projects in course of webdevelopment in bharatintern </p>    
+
+</center>
+   </div>
+    </section>
+    </div>
+    <div class="box2"><section id="Resume">
+      <center> <div class="container mt-3 contactContent">
+           <h1 class="text-center">Resume </h1>          
+
+<p>This is my resume click here to see<a href="sravya gorla resume.pdf">Resume</a> </p>
+  </div>
+  </center>
+  </div>
+  
+   </section>
+  
+<!-- contact section-->
+<center>
+<div class="box">
+   <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact</h1>
+                </div>
+
+                <div class="col-lg-6">
+                    
+                    <!-- form fields -->
+                    <form>
+                       <div> <input type="text" class="form-control form-control-lg" placeholder="Enter Your Name">
+                     </div>   <br>
+                      <div> <input type="email" class="form-control mt-3" placeholder=" Enter your Email">
+                       </div> <br>
+                       <div> <input type="password" class="form-control mt-3" placeholder=" Enter your password">
+                       </div> <br>
+                       <div> <input type="password" class="form-control mt-3" placeholder=" confirm password">
+                       </div> <br>
+                        <div class="mb-3 mt-3">
+                         <div>   <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Enter Your Message"></textarea>
+                        </div>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+                </div>
+
+            </div>
+        </div>
+        </center>
+    </section>
+	<footer>
+    <small align="center">
+      Copyright © Sravya All Rights Reserved.
+    </small>
+  </footer>
+</body>
+</html>
